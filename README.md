@@ -13,8 +13,12 @@ Nothing much.
 Don't push me
 Cause Im CLOSE TO THE EDGE!!!!!!!
 ^Taharka did this
+
+King Pumba is great.
+-Musa
 >>>>>>> master
 
+<<<<<<< HEAD
                    ______
                -~~`      `~~~~---,__
                                     `~-.
@@ -35,3 +39,8 @@ Cause Im CLOSE TO THE EDGE!!!!!!!
       `\_           ~~~------~~~       _,-~
          ~~--_                   ___,-~
               `~~~~~------'~~~~~'
+=======
+Thats what I mean.
+^Mario
+
+>>>>>>> master
