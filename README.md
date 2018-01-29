@@ -14,7 +14,7 @@ Don't push me
 Cause Im CLOSE TO THE EDGE!!!!!!!
 ^Taharka did this
 
-King Pumba.
+King Pumba is great.
 -Musa
 >>>>>>> master
 
