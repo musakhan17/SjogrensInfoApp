@@ -1,46 +1,14 @@
-# information-5
+# A Blank PhoneGap App
 
-My name is Musa.
+## Usage
 
-What up
-<<<<<<< HEAD
+### PhoneGap CLI
 
-Don't push me
+    $ phonegap create my-app --template blank
 
-Happy feet
-=======
-Nothing much.
-Don't push me
-Cause Im CLOSE TO THE EDGE!!!!!!!
-^Taharka did this
+### Desktop
 
-King Pumba is great.
--Musa
->>>>>>> master
+In your browser, open the file:
 
-<<<<<<< HEAD
-                   ______
-               -~~`      `~~~~---,__
-                                    `~-.
-             __,--~~~~~~---,__          `\
-         _/~~                 `~-,_       `\
-      _/~                          `\       `.
-    /'          _,--~~~~~--,_        `\      `\
-  /'         /~~             ~\        |       |
- /'        /'     __,---,_     `\      `|      `|
-.'       ,'     /~        ~~\    `.     |       |
-|        |     |      /~~\   |    |     `|      |
-|        |     |     |   '   |    |      |      |
-|        |     |     `\.__,-'    .'      |      |
-`|        \     `\_             /       .'     .'
- `|        `\      `--,_____,--'       /       |
-   \         `\                      /'       /
-    `\         `-,__            _,--'      _/'
-      `\_           ~~~------~~~       _,-~
-         ~~--_                   ___,-~
-              `~~~~~------'~~~~~'
-=======
-Thats what I mean.
-^Mario
+    /www/index.html
 
->>>>>>> master
