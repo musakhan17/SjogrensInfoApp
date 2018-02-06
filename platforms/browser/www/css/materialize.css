@@ -3,6 +3,20 @@
  * Copyright 2014-2017 Materialize
  * MIT License (https://raw.githubusercontent.com/Dogfalo/materialize/master/LICENSE)
  */
+
+
+ body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+.materialize-app-text {
+  color: #6eb1ff !important;
+}
 .materialize-red {
   background-color: #e51c23 !important;
 }
@@ -4263,6 +4277,11 @@ nav .button-collapse {
 nav .button-collapse i {
   height: 56px;
   line-height: 56px;
+}
+
+.startup-logo {
+  height: 200px;
+  width: 300px;
 }
 
 nav .brand-logo {

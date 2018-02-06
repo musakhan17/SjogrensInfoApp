@@ -13,15 +13,13 @@
 <body>
   <nav class="white" role="navigation">
     <div class="nav-wrapper container">
-      <img id="logo-container" class="brand-logo" src="../SSFLogo.jpg" alt="SSFLogo">
+      <img id="logo-container" class="brand-logo" src="../SSFLogo.jpg" alt="SSLogo">
       <ul class="right hide-on-med-and-down">
         <li><a href="../index.html">Home</a></li>
         <li><a href="AboutUs.html">About Us</a></li>
         <li><a href="ContactUs.html">Contact Us</a></li>
         <li><a href="#">Settings</a></li>
-        <li><a href="#">Information</a></li>
-
-
+        <li><a href="Information.html">Information</a></li>
       </ul>
 
       <ul id="nav-mobile" class="side-nav">
@@ -29,14 +27,14 @@
         <li><a href="AboutUs.html">About Us</a></li>
         <li><a href="ContactUs.html">Contact Us</a></li>
         <li><a href="#">Settings</a></li>
-        <li><a href="#">Information</a></li>
+        <li><a href="Information.html">Information</a></li>
       </ul>
       <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
     </div>
   </nav>
 
-  <div id="index-banner" class="parallax-container">
-    <div class="section no-pad-bot">
+
+    <div class="section no-pad-bot" id="index-banner">
       <div class="container">
         <br><br>
         <h1 class="header center teal-text text-lighten-2">Sjögren's Syndrome</h1>
@@ -50,8 +48,6 @@
 
       </div>
     </div>
-    <div class="parallax"><img src="../background1.jpg" alt="Unsplashed background img 1"></div>
-  </div>
 
 
   <div class="container">
@@ -61,10 +57,13 @@
       <div class="row">
         <div class="col s12 m4">
           <div class="icon-block">
-            <h2 class="center brown-text"><i class="material-icons">flash_on</i></h2>
-            <h5 class="center">Speeds up development</h5>
+            <h2 class="center brown-text"><i class="material-icons">info_outline</i></h2>
+            <h5 class="center">What is our mission?</h5>
 
-            <p class="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
+            <p class="light">The Foundation's mission is to:<br>
+              • Educate patients and their families about Sjögren's.<br>
+              • Increase public and professional awareness of Sjögren's.<br>
+              • Encourage research into new treatments and a cure.</p>
           </div>
         </div>
 
@@ -117,7 +116,6 @@
   </div>
 
 
-  <div class="parallax-container valign-wrapper">
     <div class="section no-pad-bot">
       <div class="container">
         <div class="row center">
@@ -125,12 +123,11 @@
         </div>
       </div>
     </div>
-    <div class="parallax"><img src="../background3.jpg" alt="Unsplashed background img 3"></div>
-  </div>
+
 
   <footer class="page-footer teal">
     <div class="container">
-      <div class="row">
+      <div class="row valign-wrapper">
         <div class="col l6 s12">
           <h5 class="white-text">Company Bio</h5>
           <p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
@@ -167,7 +164,7 @@
 
   <!--  Scripts-->
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script src="js/materialize.js"></script>
+  <script src="../js/materialize.js"></script>
   <script src="js/init.js"></script>
 
   </body>
