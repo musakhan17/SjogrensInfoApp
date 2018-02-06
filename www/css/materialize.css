@@ -14,6 +14,9 @@
   main {
     flex: 1 0 auto;
   }
+  .fixed-footer{
+    position: fixed;
+  }
 .materialize-app-text {
   color: #6eb1ff !important;
 }
@@ -2891,10 +2894,16 @@ ul.staggered-list li {
   }
 }
 
+.fixer{
+  position: fixed;
+}
+
 .page-footer {
-  padding-top: 20px;
-  color: #fff;
-  background-color: #ee6e73;
+
+    background-color: red;
+    width: 100%;
+    height: 20px;
+    z-index: 10;
 
 }
 
