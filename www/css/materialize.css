@@ -14,9 +14,10 @@
   main {
     flex: 1 0 auto;
   }
-  .fixed-footer{
-    position: fixed;
+  .sjogren-color{
+    color: #0E5879 !important;
   }
+
 .materialize-app-text {
   color: #0E5879 !important;
 }
