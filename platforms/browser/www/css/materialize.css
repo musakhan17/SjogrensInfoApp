@@ -3,7 +3,9 @@
  * Copyright 2014-2017 Materialize
  * MIT License (https://raw.githubusercontent.com/Dogfalo/materialize/master/LICENSE)
  */
-
+html, body{
+  height: 100%;
+}
  .stickyFooter {
       position: fixed;
       bottom: 0px;
