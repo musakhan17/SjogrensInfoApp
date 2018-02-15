@@ -11,6 +11,7 @@
       overflow: visible;
       z-index: 99;
       padding-top: 5px;
+      padding-left: 27px;
       background-color: white;
 
       -webkit-box-shadow: 0px -5px 15px 0px #bfbfbf;
@@ -31,11 +32,11 @@
     flex: 1 0 auto;
   }
   .sjogren-color{
-    color: #0E5879 !important;
+    color: #225DAD !important;
   }
 
-.materialize-app-text {
-  color: #0E5879 !important;
+.pad {
+  padding-bottom: 25px;
 }
 .materialize-red {
   background-color: #e51c23 !important;
