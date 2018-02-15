@@ -17,12 +17,6 @@
       box-shadow: 0px -5px 15px 0px #bfbfbf;
       height: 80px;
  }
- .pad{
-  padding-bottom: 100px;
- }
- .border{
-   border-left: 5px #235CA9 solid ;
- }
 
  .foot-buttons{
    margin-left: 25px;
@@ -37,8 +31,12 @@
     flex: 1 0 auto;
   }
   .sjogren-color{
-    color: #235CA9 !important;
+    color: #0E5879 !important;
   }
+
+.materialize-app-text {
+  color: #0E5879 !important;
+}
 .materialize-red {
   background-color: #e51c23 !important;
 }
