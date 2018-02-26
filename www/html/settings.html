@@ -6,20 +6,23 @@
   <title>Symptoms</title>
 
   <!-- CSS  -->
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="../css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="../css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  <link href="../css/fa_css/fontawesome-all.css" rel="stylesheet">
+  <link href="../css/fontawesome-all.css" type="text/css" rel="stylesheet">
 </head>
 <body>
   <nav class="white" role="navigation">
     <div class="nav-wrapper container">
-      <img id="logo-container" class="brand-logo" src="../SSFLogo.jpg" alt="SSLogo">
+      <a href="../index.html"><img id="logo-container" class="brand-logo" src="../SSFLogo.jpg" alt="SSFLogo"></a>
       <ul class="right hide-on-med-and-down">
         <li><a href="../index.html">Home</a></li>
+        <li><div class="divider"></div></li>
         <li><a href="AboutUs.html">About Us</a></li>
+        <li><div class="divider"></div></li>
         <li><a href="ContactUs.html">Contact Us</a></li>
-        <li><a href="#">Settings</a></li>
+        <li><div class="divider"></div></li>
+        <li><a href="settings.html">Settings</a></li>
+        <li><div class="divider"></div></li>
         <li><a href="Information.html">Information</a></li>
       </ul>
 
@@ -78,14 +81,14 @@
           <i class="fas fa-info fa-1.6x waves-effect waves-light sjogren-color"></i>Information</a>
         </li>
       </ul>
-      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+      <a href="#" data-activates="nav-mobile" class="button-collapse sjogren-color"><i class="fas fa-bars"></i></a>
     </div>
   </nav>
 
   <div class="section no-pad-bot" id="index-banner">
     <div class="container">
       <br><br>
-      <h1 class="header center materialize-app-text">Sjögren's Syndrome Foundation</h1>
+
       <div class="row center">
         <h3 class="header col s12 light">Symptoms</h3>
       </div>
@@ -124,8 +127,8 @@
         </div>
 
         <div class="col s12 m4">
-          <div class="icon-block">
-            <p>
+          <div class="icon-block ">
+            <p class="pad">
               Recurrent bronchitis, interstitial lung disease, pneumonia
               <br>
               Fatigue, vasculitis, dry skin
@@ -151,39 +154,41 @@
     <br><br>
   </div>
 
-  <footer class="page-footer teal">
-    <div class="container">
-      <div class="row valign-wrapper">
-        <div class="col s12 m1">
+  <footer class="row valign-wrapper stickyFooter">
 
-          <h1 class="white-text">
-            <a href="../index.html" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">
-              <i class="material-icons">home</i>
-            </a>
-          </h1>
+    <div class="foot-buttons valign-wrapper">
+    <div class="col s12 m1">
+      <h1 class="white-text">
+        <i onclick="goBack()" class="fas fa-arrow-left fa-xs sjogren-color"></i>
+      </h1>
+    </div>
 
-        </div>
-        <div class="col s12 m1">
-          <h1 class="white-text">
-            <a href="https://www.sjogrens.org/home/about-the-foundation/news-and-events" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">
-              <i class="material-icons">view_headline</i>
-            </a>
-          </h1>
-        </div>
-        <div class="col s12 m1">
-          <h1 class="white-text">
-            <a href="../index.html" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">
-              <i class="material-icons">star_border</i>
-            </a>
-          </h1>
-        </div>
-      </div>
+
+    <div class="col s12 m1">
+      <h1 class="white-text">
+        <a href="../index.html">
+          <i class="fas fa-home fa-xs sjogren-color"></i>
+        </a>
+      </h1>
     </div>
-    <div class="footer-copyright">
-      <div class="container">
-        Designed by <a class="brown-text text-lighten-3" href="http://materializecss.com">Code Brothers</a>
-      </div>
+
+    <div class="col s12 m1">
+      <h1 class="white-text">
+        <a href="https://www.sjogrens.org/home/about-the-foundation/news-and-events" >
+          <i class="far fa-newspaper fa-xs sjogren-color"></i>
+        </a>
+      </h1>
     </div>
+
+    <div class="col s12 m1">
+      <h1 class="white-text">
+        <a href="https://www.youtube.com/watch?v=Sa7XQ_Hr_8Q">
+          <i class="fab fa-youtube fa-xs sjogren-color"></i>
+        </a>
+      </h1>
+    </div>
+  </div>
+
   </footer>
 
 
