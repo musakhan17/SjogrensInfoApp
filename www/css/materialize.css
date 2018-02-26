@@ -4310,8 +4310,8 @@ nav .button-collapse i {
 }
 
 nav .brand-logo {
-  height: 50px;
-  width: 90px;
+  height: 100%;
+  width: 100px;
   position: absolute;
   color: #fff;
   display: inline-block;

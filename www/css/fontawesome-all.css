@@ -989,7 +989,8 @@ readers do not read off random characters that represent icons */
   content: "\f39f"; }
 
 .fa-facebook-square:before {
-  content: "\f082"; }
+  content: "\f082";
+  color: #3b5998;   }
 
 .fa-fast-backward:before {
   content: "\f049"; }
@@ -1070,7 +1071,8 @@ readers do not read off random characters that represent icons */
   content: "\f0c3"; }
 
 .fa-flickr:before {
-  content: "\f16e"; }
+  content: "\f16e";
+  color: #ff0084;  }
 
 .fa-flipboard:before {
   content: "\f44d"; }
@@ -2390,7 +2392,8 @@ readers do not read off random characters that represent icons */
   content: "\f099"; }
 
 .fa-twitter-square:before {
-  content: "\f081"; }
+  content: "\f081";
+  color: #00aced;   }
 
 .fa-typo3:before {
   content: "\f42b"; }
