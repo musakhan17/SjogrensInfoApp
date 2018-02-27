@@ -27,6 +27,13 @@
    border-left: 5px #235CA9 solid ;
  }
 
+ .side-nav-img{
+   height: 90px;
+   width: 220px;
+   padding-top: 10px;
+   padding-left: 80px;
+ }
+
  .foot-buttons{
    margin-left: 25px;
  }
