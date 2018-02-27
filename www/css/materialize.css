@@ -3,9 +3,7 @@
  * Copyright 2014-2017 Materialize
  * MIT License (https://raw.githubusercontent.com/Dogfalo/materialize/master/LICENSE)
  */
-html, body{
-  height: 100%;
-}
+
  .stickyFooter {
       position: fixed;
       bottom: 0px;
@@ -13,12 +11,27 @@ html, body{
       overflow: visible;
       z-index: 99;
       padding-top: 5px;
-      padding-left: 27px;
       background-color: white;
 
       -webkit-box-shadow: 0px -5px 15px 0px #bfbfbf;
       box-shadow: 0px -5px 15px 0px #bfbfbf;
       height: 80px;
+ }
+ .pad{
+  padding-bottom: 100px;
+ }
+ .pullup{
+   margin-top: -25px;
+ }
+ .border{
+   border-left: 5px #235CA9 solid ;
+ }
+
+ .side-nav-img{
+   height: 90px;
+   width: 220px;
+   padding-top: 10px;
+   padding-left: 80px;
  }
 
  .foot-buttons{
@@ -34,12 +47,8 @@ html, body{
     flex: 1 0 auto;
   }
   .sjogren-color{
-    color: #225DAD !important;
+    color: #235CA9 !important;
   }
-
-.pad {
-  padding-bottom: 25px;
-}
 .materialize-red {
   background-color: #e51c23 !important;
 }
@@ -4308,8 +4317,8 @@ nav .button-collapse i {
 }
 
 nav .brand-logo {
-  height: 50px;
-  width: 90px;
+  height: 100%;
+  width: 100px;
   position: absolute;
   color: #fff;
   display: inline-block;
@@ -7473,7 +7482,6 @@ input[type=range]:focus::-ms-fill-upper {
   height: 48px;
   line-height: 48px;
   margin: 0 32px 0 0;
-  width: 24px;
   color: rgba(0, 0, 0, 0.54);
 }
 
