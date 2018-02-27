@@ -20,8 +20,18 @@
  .pad{
   padding-bottom: 100px;
  }
+ .pullup{
+   margin-top: -25px;
+ }
  .border{
    border-left: 5px #235CA9 solid ;
+ }
+
+ .side-nav-img{
+   height: 90px;
+   width: 220px;
+   padding-top: 10px;
+   padding-left: 80px;
  }
 
  .foot-buttons{
@@ -4307,8 +4317,8 @@ nav .button-collapse i {
 }
 
 nav .brand-logo {
-  height: 50px;
-  width: 90px;
+  height: 100%;
+  width: 100px;
   position: absolute;
   color: #fff;
   display: inline-block;
@@ -7472,7 +7482,6 @@ input[type=range]:focus::-ms-fill-upper {
   height: 48px;
   line-height: 48px;
   margin: 0 32px 0 0;
-  width: 24px;
   color: rgba(0, 0, 0, 0.54);
 }
 
