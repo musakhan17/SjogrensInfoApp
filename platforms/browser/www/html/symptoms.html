@@ -14,6 +14,8 @@
   <div class="navbar-fixed">
   <nav class="white" role="navigation">
     <div class="nav-wrapper container">
+
+      <i onclick="goBack()" class="fas fa-arrow-left fa-2x sjogren-color" style="padding-top: 15px;"></i>
       <a href="../index.html"><img id="logo-container" class="brand-logo" src="../SSFLogo.jpg" alt="SSFLogo"></a>
 
       <ul id="nav-mobile" class="side-nav sjogren-color">
@@ -26,7 +28,7 @@
         </li>
         <li>
           <a class="waves-effect" href="faqs.html" class="sjogren-color">
-            <i class="fas fa-question fa-1.6x waves-effect waves-light sjogren-color"></i>FAQs</a>
+            <i class="pad-faqs fas fa-question fa-1.6x waves-effect waves-light sjogren-color"></i>FAQs</a>
         </li>
         <li>
           <div class="divider"></div>
@@ -60,15 +62,15 @@
           <div class="divider"></div>
         </li>
         <li>
-          <a class="waves-effect" href="settings.html" class="sjogren-color">
-          <i class="fas fa-cog fa-1.6x waves-effect waves-light sjogren-color"></i>Settings</a>
+          <a class="waves-effect" href="Information.html" class="sjogren-color">
+          <i class="pad-info fas fa-info fa-1.6x waves-effect waves-light sjogren-color"></i>Information</a>
         </li>
         <li>
           <div class="divider"></div>
         </li>
         <li>
-          <a class="waves-effect" href="Information.html" class="sjogren-color">
-          <i class="fas fa-info fa-1.6x waves-effect waves-light sjogren-color"></i>Information</a>
+          <a href="treatments.html">
+            <i class="fas fa-user-md fa-1.6x waves-effect waves-light sjogren-color"></i>Treatments</a>
         </li>
         <li>
           <div class="divider"></div>
@@ -78,7 +80,9 @@
           © 2018 Code Brothers.<br> All rights reserved.
         </p>
       </ul>
-      <a href="#" data-activates="nav-mobile" class="button-collapse sjogren-color"><i class="fas fa-bars"></i></a>
+      <div class="row right">
+      <a href="#" data-activates="nav-mobile" class="button-collapse sjogren-color"><i class=" right fas fa-bars fa-2x"></i></a>
+      </div>
     </div>
   </nav>
 </div>
@@ -152,10 +156,7 @@
 
   <footer class="row stickyFooter">
 
-    <div class="valign-wrapper">
-      <div class="col s12 m1">
-      <i onclick="goBack()" class="fas fa-arrow-left fa-3x sjogren-color"></i>
-      </div>
+    <div class="valign-wrapper footer-pad">
 
       <div class="col s12 m1" >
       <a href="../index.html">

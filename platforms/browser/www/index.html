@@ -11,6 +11,7 @@
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
   <link href="css/fontawesome-all.css" type="text/css" rel="stylesheet">
 
+  <!-- JS  -->
   <script type="text/javascript" src="js/cordova.js"></script>
   <script type="text/javascript" src="js/cordova_plugins.js"></script>
 
@@ -20,8 +21,10 @@
   <div class="navbar-fixed">
   <nav class="white" role="navigation">
     <div class="nav-wrapper container">
+
+      <i onclick="goBack()" class="fas fa-arrow-left fa-2x sjogren-color" style="padding-top: 15px;"></i>
       <a href="index.html"><img id="logo-container" class="brand-logo" src="SSFLogo.jpg" alt="SSFLogo"></a>
-      
+
       <ul id="nav-mobile" class="side-nav sjogren-color">
         <li>
           <a class="waves-effect" href="index.html" class="sjogren-color">
@@ -32,7 +35,7 @@
         </li>
         <li>
           <a class="waves-effect" href="html/faqs.html" class="sjogren-color">
-            <i class="fas fa-question fa-1.6x waves-effect waves-light sjogren-color"></i>FAQs</a>
+            <i class="pad-faqs fas fa-question fa-1.6x waves-effect waves-light sjogren-color"></i>FAQs</a>
         </li>
         <li>
           <div class="divider"></div>
@@ -66,15 +69,8 @@
           <div class="divider"></div>
         </li>
         <li>
-          <a class="waves-effect" href="html/settings.html" class="sjogren-color">
-          <i class="fas fa-cog fa-1.6x waves-effect waves-light sjogren-color"></i>Settings</a>
-        </li>
-        <li>
-          <div class="divider"></div>
-        </li>
-        <li>
           <a class="waves-effect" href="html/Information.html" class="sjogren-color">
-          <i class="fas fa-info fa-1.6x waves-effect waves-light sjogren-color"></i>Information</a>
+          <i class="pad-info fas fa-info fa-1.6x waves-effect waves-light sjogren-color"></i>Information</a>
         </li>
         <li>
           <div class="divider"></div>
@@ -84,28 +80,29 @@
           © 2018 Code Brothers.<br> All rights reserved.
         </p>
       </ul>
-      <a href="#" data-activates="nav-mobile" class="button-collapse sjogren-color"><i class="fas fa-bars"></i></a>
+      <div class="row right">
+      <a href="#" data-activates="nav-mobile" class="button-collapse sjogren-color"><i class=" right fas fa-bars fa-2x"></i></a>
+      </div>
     </div>
   </nav>
 </div>
 
   <div class="container">
     <br><br>
-    <h3 class="header center light sjogren-color pullup">Sjögren's Syndrome Foundation</h3>
+    <h4 class="header center light sjogren-color pullup">Sjögren's Syndrome Foundation</h4>
     <div class="row center">
       <h5 class="header col s12 light">Need information on Sjögren?</h5>
     </div>
     <div class="row center icon-pad">
       <a href="html/Information.html" id="download-button" class="btn-large waves-effect waves-light orange">
-          Give it to me!
-        </a>
+          Give it to me</a>
     </div>
     <br><br>
 
   </div>
 
 
-  <div class="container pad" style="margin-top: -40px;">
+  <div class="container" style="margin-top: -40px;">
     <div class="section">
 
       <!--   Icon Section   -->
@@ -124,10 +121,10 @@
 
           <div class="col s12 m4">
             <div class="icon-block">
-              <h5 class="center"><i class="fas fa-cog sjogren-color"></i></h5>
+              <h5 class="center"><i class="fas fa-th-list sjogren-color"></i></h5>
               <h5 class="center">
-              <a href="html/settings.html" id="download-button" class="btn-large waves-effect waves-light blue darken-2 lighten-1">
-                Settings</a>
+              <a href="html/TableContents.html" id="download-button" class="btn-large waves-effect waves-light blue darken-2 lighten-1">
+                Content</a>
             </h5>
             </div>
           </div>
@@ -165,10 +162,7 @@
 
   <footer class="row stickyFooter">
 
-    <div class="valign-wrapper">
-      <div class="col s12 m1">
-      <i onclick="goBack()" class="fas fa-arrow-left fa-3x sjogren-color"></i>
-      </div>
+    <div class="valign-wrapper footer-pad">
 
       <div class="col s12 m1" >
       <a href="index.html">
@@ -183,7 +177,7 @@
       </div>
 
       <div class="col s12 m1">
-          <a href="#" onclick="openInAppBrowserBlank('http://www.youtube.com/user/sjogrenssyndromefnd');">
+          <a href="#" onclick="window.open('http://www.youtube.com/user/sjogrenssyndromefnd');">
           <!-- <a href="https://www.youtube.com/channel/UC08c4i8Ae91iuQRbaou6Wvw"> -->
           <i class="fab fa-youtube fa-3x sjogren-color"></i>
           </a>

@@ -10,23 +10,31 @@
       width: 100%;
       overflow: visible;
       z-index: 99;
-      padding-top: 25px;
+      padding-top: 12px;
       background-color: white;
 
       -webkit-box-shadow: 0px -5px 15px 0px #bfbfbf;
       box-shadow: 0px -5px 15px 0px #bfbfbf;
-      height: 80px;
+      height: 65px;
  }
-
- .info-icon-pad {
-  padding: 0 90px;
+ .pad-faqs{
+   padding-right: 10px;
+ }
+ .pad-info{
+   padding-right: 15px;
+ }
+ .home-pullup{
+   margin-top: -40px;
  }
 
  .icon-pad {
-    padding: 0 100px;
+    padding: 0 90px;
 }
  .pad{
   padding-bottom: 100px;
+ }
+ .footer-pad{
+   padding-left: 50px;
  }
  .pullup{
    margin-top: -25px;
@@ -3475,7 +3483,6 @@ nav ul a span.badge {
   float: left;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  padding: 0 0.75rem;
   min-height: 1px;
 }
 
