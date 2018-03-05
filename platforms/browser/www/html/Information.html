@@ -13,13 +13,22 @@
 <body>
   <div class="navbar-fixed">
   <nav class="white" role="navigation">
+
     <div class="nav-wrapper container">
+      <i onclick="goBack()" class="fas fa-arrow-left fa-2x sjogren-color" style="padding-top: 15px;"></i>
       <a href="../index.html"><img id="logo-container" class="brand-logo" src="../SSFLogo.jpg" alt="SSFLogo"></a>
-      
+
       <ul id="nav-mobile" class="side-nav sjogren-color">
         <li>
           <a class="waves-effect" href="../index.html" class="sjogren-color">
               <i class="fas fa-home fa-1.6x waves-effect waves-light sjogren-color"></i>Home</a>
+        </li>
+        <li>
+          <div class="divider"></div>
+        </li>
+        <li>
+          <a class="waves-effect" href="faqs.html" class="sjogren-color">
+            <i class="pad-faqs fas fa-question fa-1.6x waves-effect waves-light sjogren-color"></i>FAQs</a>
         </li>
         <li>
           <div class="divider"></div>
@@ -34,20 +43,6 @@
         <li>
           <a class="waves-effect" href="ContactUs.html" class="sjogren-color">
           <i class="fas fa-phone fa-1.6x waves-effect waves-light sjogren-color"></i>Contact Us</a>
-        </li>
-        <li>
-          <div class="divider"></div>
-        </li>
-        <li>
-          <a class="waves-effect" href="settings.html" class="sjogren-color">
-          <i class="fas fa-cog fa-1.6x waves-effect waves-light sjogren-color"></i>Settings</a>
-        </li>
-        <li>
-          <div class="divider"></div>
-        </li>
-        <li>
-          <a class="waves-effect" href="Information.html" class="sjogren-color">
-          <i class="fas fa-info fa-1.6x waves-effect waves-light sjogren-color"></i>Information</a>
         </li>
         <li>
           <div class="divider"></div>
@@ -74,21 +69,23 @@
           © 2018 Code Brothers.<br> All rights reserved.
         </p>
       </ul>
-        <a href="#" data-activates="nav-mobile" class="button-collapse sjogren-color"><i class="fas fa-bars"></i></a>
+      <div class="row right">
+      <a href="#" data-activates="nav-mobile" class="button-collapse sjogren-color"><i class=" right fas fa-bars fa-2x"></i></a>
+      </div>
     </div>
   </nav>
 </div>
 
-    <div class="container">
-      <br><br>
-      <div class="row center">
-        <h3 class="header col s12 light sjogren-color pullup">The Information Page</h3>
-      </div>
-
-      <br><br>
-
-    </div>
+<div class="container">
+  <br><br>
+  <h4 class="header center light sjogren-color pullup">Sjögren's Basics</h4>
+  <div class="row center">
+    <h5 class="header col s12 light">Sjögren Syndrome is a long-term autoimmune disease in which the moisture-producing glands of the body are affected.
+    </h5>
   </div>
+  <br><br>
+
+</div>
 
 
   <div class="container pad" style="margin-top: -40px;">
@@ -96,42 +93,52 @@
 
       <!--   Icon Section   -->
       <div class="row">
-        <div class="col s12 m4">
-            <h5 class="center sjogren-color">What is Sjogren's? <br> A graphical image</h5>
-            <div class="info-icon-pad">
-            <h5 class="center">
-              <a href="../Ssfdoc.jpg" id="download-button" class="btn-large waves-effect waves-light deep-purple lighten-2">Here!</a>
-            </h5>
+        <div class="valign-wrapper">
 
+          <div class="col s12 m4">
+            <div class="icon-block">
+              <h6 class="center sjogren-color">How can it affect me?</h6>
+              <h5 class="center">
+              <a href="symptoms.html" id="download-button" class="btn-large waves-effect waves-light blue darken-2 lighten-1">
+                Symptoms</a>
+            </h5>
+            </div>
+          </div>
+          <div class="col s12 m4">
+            <div class="icon-block">
+              <h6 class="center sjogren-color">How can I battle it?</h6>
+              <h5 class="center">
+                <a href="treatments.html" id="download-button" class="btn-large waves-effect waves-light blue darken-2 lighten-1">
+                  Treatments</a>
+              </h5>
+            </div>
+          </div>
+
+
+        </div>
+
+      <div class="valign-wrapper">
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h6 class="center sjogren-color">What is Sjogren's?</h6>
+            <h5 class="center">
+            <a href="../Ssfdoc.jpg" id="download-button" class="btn-large waves-effect waves-light blue darken-2 lighten-1">
+              Show me</a>
+          </h5>
           </div>
         </div>
 
         <div class="col s12 m4">
-          <div class="info-icon-pad">
-            <h5 class="center sjogren-color">Want to know the <strong>symptoms?<strong></h5>
+          <div class="icon-block">
+            <h6 class="center sjogren-color">Interstitialcy.. what?</h6>
             <h5 class="center">
-              <a href="symptoms.html" id="download-button" class="btn-large waves-effect waves-light deep-purple lighten-2">Symptoms</a>
+              <a href="dictionary.html" id="download-button" class="btn-large waves-effect waves-light blue darken-2 lighten-1">
+                Dictionary</a>
             </h5>
           </div>
         </div>
-
-        <div class="col s12 m4">
-          <div class="info-icon-pad">
-            <h5 class="center sjogren-color">How can I battle it?</h5>
-            <h5 class="center">
-              <a href="treatments.html" id="download-button" class="btn-large waves-effect waves-light deep-purple lighten-2">Treatments</a>
-            </h5>
-          </div>
-        </div>
-
-        <div class="col s12 m4">
-          <div class="info-icon-pad">
-            <h5 class="center sjogren-color">Interstitialcy.. what?</h5>
-            <h5 class="center">
-              <a href="dictionary.html" id="download-button" class="btn-large waves-effect waves-light deep-purple lighten-2">Dictionary</a>
-            </h5>
-          </div>
-        </div>
+      </div>
 
       </div>
 
@@ -141,10 +148,7 @@
 
   <footer class="row stickyFooter">
 
-    <div class="valign-wrapper">
-      <div class="col s12 m1">
-      <i onclick="goBack()" class="fas fa-arrow-left fa-3x sjogren-color"></i>
-      </div>
+    <div class="valign-wrapper footer-pad">
 
       <div class="col s12 m1" >
       <a href="../index.html">
