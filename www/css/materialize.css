@@ -7585,6 +7585,7 @@ input[type=range]:focus::-ms-fill-upper {
   width: 10px;
   position: fixed;
   top: 0;
+  left: 350px !important;
   z-index: 998;
 }
 
