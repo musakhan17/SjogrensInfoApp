@@ -1,4 +1,4 @@
-cordova.define("cordova-plugin-file.Metadata", function(require, exports, module) { /*
+cordova.define("cordova-plugin-globalization.GlobalizationError", function(require, exports, module) { /*
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -20,23 +20,23 @@ cordova.define("cordova-plugin-file.Metadata", function(require, exports, module
 */
 
 /**
- * Information about the state of the file or directory
+ * Globalization error object
  *
- * {Date} modificationTime (readonly)
+ * @constructor
+ * @param code
+ * @param message
  */
-var Metadata = function (metadata) {
-    if (typeof metadata === 'object') {
-        this.modificationTime = new Date(metadata.modificationTime);
-        this.size = metadata.size || 0;
-    } else if (typeof metadata === 'undefined') {
-        this.modificationTime = null;
-        this.size = 0;
-    } else {
-        /* Backwards compatiblity with platforms that only return a timestamp */
-        this.modificationTime = new Date(metadata);
-    }
+var GlobalizationError = function (code, message) {
+    this.code = code || null;
+    this.message = message || '';
 };
 
-module.exports = Metadata;
+// Globalization error codes
+GlobalizationError.UNKNOWN_ERROR = 0;
+GlobalizationError.FORMATTING_ERROR = 1;
+GlobalizationError.PARSING_ERROR = 2;
+GlobalizationError.PATTERN_ERROR = 3;
+
+module.exports = GlobalizationError;
 
 });
