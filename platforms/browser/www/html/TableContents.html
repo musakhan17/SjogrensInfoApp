@@ -10,6 +10,10 @@
   <link href="../css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
   <link href="../css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
   <link href="../css/fontawesome-all.css" type="text/css" rel="stylesheet">
+
+  <script type="text/javascript" src="../js/cordova.js"></script>
+  <script type="text/javascript" src="../js/cordova_plugins.js"></script>
+  
 </head>
 
 <body>
@@ -18,7 +22,7 @@
     <div class="nav-wrapper container">
 
       <i onclick="goBack()" class="fas fa-arrow-left fa-2x sjogren-color" style="padding-top: 15px;"></i>
-      <a href="index.html"><img id="logo-container" class="brand-logo" src="../SSFLogo.jpg" alt="SSFLogo"></a>
+      <a href="../index.html"><img id="logo-container" class="brand-logo" src="../SSFLogo.jpg" alt="SSFLogo"></a>
 
       <ul id="nav-mobile" class="side-nav sjogren-color">
         <li>
@@ -106,62 +110,55 @@
 
   </div>
 
-  <div class="pad">
+  <div class="pad container">
     <ul class="collapsible" data-collapsible="accordion">
       <li>
         <div class="waves-effect collapsible-header blue darken-3 white-text">General</div>
-        <div class="collapsible-body" style="padding:0px">
-            <ul class="collapsible" data-collapsible="accordion">
-              <li>
-                <div class="waves-effect collapsible-header blue darken-2 white-text">Living with Sjogrens</div>
-                <div class="collapsible-body row">
-                  <p style="padding-left:0px">
-                    - It is important to find a doctor who is both a good partner in treating your disease, as well as a good listener!
-                    <br><br>
-                    - When seeking information on Sjögren’s, consider the source. Make sure the source is authoritative, knowledgeable and up-to-date.
-                    <br><br>
-                    - Identify major stressors in your life and work with a mental health professional or your support system to minimize their impact.
-                    <br><br>
-                    - Just because an OTC product is natural does not make it safe or appropriate. Always discuss natural remedies with your doctor.
-                    <br><br>
-                    - Recent scientific data show that longevity is associated with the successful management of chronic diseases such as Sjögren’s syndrome – not the absence of any disease.
-                    <br><br>
-                    - If you have Sjögren’s and are employed, ask for needed accommodations because of your medical condition.
-                    <br><br>
-                    - Always take non-steroidal anti-inflammatory drugs (NSAIDs) with food or milk to avoid stomach upset.
-                    <br><br>
-                    - Never feel guilty about seeking a second opinion, especially given the overlap and uncertainty with Sjögren’s.
-                    <br><br>
-                    - “No one grew up with plans to have a chronic disease. It just happens. Once it does, you have to do everything possible to live in the best way you can.”
-                    <br><br>
-                    - If you are riding an emotional roller coaster of emotions because of your Sjögren’s, join an SSF Support Group and/or talk to a health professional.
-                    You will feel better knowing that you are not alone, plus you will find more ways to cope with your disease.
-                    <br><br>
-                    - Listen to your body. Do not take on more than you can handle, and pay attention to new symptoms, or symptoms that get worse, and tell your physician.
-                    <br><br>
-                    - Find a doctor who will coordinate all of your care in Sjögren’s and head your “medical care team.” Usually this is a rheumatologist, but a family doctor or general practitioner may also fill this role.
-                    <br><br>
-                    - Become an active participant in treatment decisions and an informed consumer. You will feel more in control of your disease, decrease anxiety, and ensure you are getting the best possible medical care for you.
-                    <br><br>
-                    - You can maintain a good quality of life with Sjögren’s. Stay on top of the latest information, educate yourself through the SSF, find support and watch your limits.
-                    <br><br>
-                    - Make sure your physician knows about all the prescription and OTC medications you are taking. Many drugs have side effects that can make your Sjögren’s symptoms worse.
-                    <br><br>
-                    - Remember that just because a symptom can’t be seen easily, your symptom is still important. If you feel your Sjögren’s symptoms are dismissed by a physician, help educate your physician and/or find another physician.
-                    <br><br>
-                    - Wondering what products Sjögren’s patients use for dry eye, dry mouth, dry nose, dry skin, dry ears, dry vagina, sun protection, reflux and neuropathy pain? Contact the SSF for a copy of its Product Directory.
-                    <br><br>
-                    - Seek positive relationships in your life. These will help you cope and will reduce general anxiety when you have a frequently misunderstood disease.
-                    <br><br>
-                  </p>
-                </div>
-              </li>
-            </ul>
+        <div class="collapsible-body container" style="padding:0px">
+          <p style="padding-left:0px">
+            - It is important to find a doctor who is both a good partner in treating your disease, as well as a good listener!
+            <br><br>
+            - When seeking information on Sjögren’s, consider the source. Make sure the source is authoritative, knowledgeable and up-to-date.
+            <br><br>
+            - Identify major stressors in your life and work with a mental health professional or your support system to minimize their impact.
+            <br><br>
+            - Just because an OTC product is natural does not make it safe or appropriate. Always discuss natural remedies with your doctor.
+            <br><br>
+            - Recent scientific data show that longevity is associated with the successful management of chronic diseases such as Sjögren’s – not the absence of any disease.
+            <br><br>
+            - If you have Sjögren’s and are employed, ask for needed accommodations because of your medical condition.
+            <br><br>
+            - Always take non-steroidal anti-inflammatory drugs (NSAIDs) with food or milk to avoid stomach upset.
+            <br><br>
+            - Never feel guilty about seeking a second opinion, especially given the overlap and uncertainty with Sjögren’s.
+            <br><br>
+            - “No one grew up with plans to have a chronic disease. It just happens. Once it does, you have to do everything possible to live in the best way you can.”
+            <br><br>
+            - If you are riding an emotional roller coaster of emotions because of your Sjögren’s, join an SSF Support Group and/or talk to a health professional.
+            You will feel better knowing that you are not alone, plus you will find more ways to cope with your disease.
+            <br><br>
+            - Listen to your body. Do not take on more than you can handle, and pay attention to new symptoms, or symptoms that get worse, and tell your physician.
+            <br><br>
+            - Find a doctor who will coordinate all of your care in Sjögren’s and head your “medical care team.” Usually this is a rheumatologist, but a family doctor or general practitioner may also fill this role.
+            <br><br>
+            - Become an active participant in treatment decisions and an informed consumer. You will feel more in control of your disease, decrease anxiety, and ensure you are getting the best possible medical care for you.
+            <br><br>
+            - You can maintain a good quality of life with Sjögren’s. Stay on top of the latest information, educate yourself through the SSF, find support and watch your limits.
+            <br><br>
+            - Make sure your physician knows about all the prescription and OTC medications you are taking. Many drugs have side effects that can make your Sjögren’s symptoms worse.
+            <br><br>
+            - Remember that just because a symptom can’t be seen easily, your symptom is still important. If you feel your Sjögren’s symptoms are dismissed by a physician, help educate your physician and/or find another physician.
+            <br><br>
+            - Wondering what products Sjögren’s patients use for dry eye, dry mouth, dry nose, dry skin, dry ears, dry vagina, sun protection, reflux and neuropathy pain? Contact the SSF for a copy of its Product Directory.
+            <br><br>
+            - Seek positive relationships in your life. These will help you cope and will reduce general anxiety when you have a frequently misunderstood disease.
+            <br><br>
+          </p>
         </div>
       </li>
       <li>
         <div class="waves-effect collapsible-header blue darken-3 white-text">Dry Mouth</div>
-        <div class="waves-effect collapsible-body container row" style="padding:0px">
+        <div class="collapsible-body container" style="padding:0px">
             <p style="padding-left:0px">
               - Eat soft, moist foods if you have trouble swallowing or with your teeth chipping and breaking.
               <br><br>
@@ -184,7 +181,7 @@
       </li>
       <li>
         <div class="waves-effect collapsible-header blue darken-3 white-text">Dry Eye</div>
-        <div class="collapsible-body container row" style="padding:0px">
+        <div class="collapsible-body container" style="padding:0px">
             <p style="padding-left:0px">
               - Try sterile eyelid cleansers or baby shampoo on a warm washcloth to help with blepharitis, a common condition in Sjögren’s that causes chronic inflammation of the eyelids and eyelid margins.
               <br><br>
@@ -219,7 +216,7 @@
       </li>
       <li>
         <div class="waves-effect collapsible-header blue darken-3 white-text">Dry Skin</div>
-        <div class="collapsible-body container row" style="padding:0px">
+        <div class="collapsible-body container" style="padding:0px">
             <p style="padding-left:0px">
               - Take short, warm baths or showers to help with dry skin. Hot water removes skin oils.
               <br><br>
@@ -235,8 +232,8 @@
         </div>
       </li>
       <li>
-        <div class=" waves-effect collapsible-header blue darken-3 white-text">Dry Nose</div>
-        <div class="collapsible-body container row" style="padding:0px">
+        <div class="waves-effect collapsible-header blue darken-3 white-text">Dry Nose</div>
+        <div class="collapsible-body container" style="padding:0px">
             <p style="padding-left:0px">
               - Try nasal irrigation for a dry nose. Instructions for various methods are available through the SSF.
               <br><br>
@@ -246,8 +243,8 @@
         </div>
       </li>
       <li>
-        <div class=" waves-effect collapsible-header blue darken-3 white-text">Dry Ear</div>
-        <div class="collapsible-body container row" style="padding:0px">
+        <div class="waves-effect collapsible-header blue darken-3 white-text">Dry Ear</div>
+        <div class="collapsible-body container" style="padding:0px">
             <p style="padding-left:0px">
               - A drop of earwax remover or mineral oil can help dry itching ears.
               <br><br>
@@ -256,11 +253,11 @@
       </li>
       <li>
         <div class="waves-effect collapsible-header blue darken-3 white-text">Fatigue</div>
-        <div class="collapsible-body container row" style="padding:0px">
+        <div class="collapsible-body container" style="padding:0px">
             <p style="padding-left:0px">
               - Battling fatigue with Sjögren’s? Know your limits and pace yourself.
               <br><br>
-              - Don’t be a couch potato! A common cause of chronic pain and fatigue in any disorder, including Sjögren’s syndrome, is lack of exercise.
+              - Don’t be a couch potato! A common cause of chronic pain and fatigue in any disorder, including Sjögren’s, is lack of exercise.
               <br><br>
               - Educate your friends and family about what you are going through and how fatigue in Sjögren’s can come and go.
               <br><br>
@@ -271,7 +268,7 @@
       </li>
       <li>
         <div class="waves-effect collapsible-header blue darken-3 white-text">Brain Fog</div>
-        <div class="collapsible-body container row" style="padding:0px">
+        <div class="collapsible-body container" style="padding:0px">
             <p style="padding-left:0px">
               - Always report changes in cognition/memory and mood, such as depression and anxiety, to your doctor. “Brain fog” can accompany Sjögren’s, but all changes in usual symptoms should be reported.
               <br><br>
@@ -292,7 +289,7 @@
       </li>
       <li>
         <div class="waves-effect collapsible-header blue darken-3 white-text">Sun & Sjögren’s</div>
-        <div class="collapsible-body container row" style="padding:0px">
+        <div class="collapsible-body container" style="padding:0px">
             <p style="padding-left:0px">
               - To reduce reactions to the sun, wear good UV-protective eye lenses and sunglasses, and seek the shade when outside.
               <br><br>
@@ -313,7 +310,7 @@
       </li>
       <li>
         <div class="waves-effect collapsible-header blue darken-3 white-text">Sleep & Sjögren’s</div>
-        <div class="collapsible-body container row" style="padding:0px">
+        <div class="collapsible-body container" style="padding:0px">
             <p style="padding-left:0px">
               - Sjögren’s patients who have trouble sleeping should make sure the bedroom is comfortable, secure, dark and quiet.
               <br><br>
@@ -326,7 +323,7 @@
       </li>
       <li>
         <div class="waves-effect collapsible-header blue darken-3 white-text">Surgery & Sjögren’s</div>
-        <div class="collapsible-body container row" style="padding:0px">
+        <div class="collapsible-body container" style="padding:0px">
             <p style="padding-left:0px">
               - Sjögren’s patients undergoing surgery should talk to their doctor about bringing medications and OTC products that are not commonly stocked in hospital pharmacies.
               <br><br>
@@ -347,7 +344,7 @@
       </li>
       <li>
         <div class="waves-effect collapsible-header blue darken-3 white-text">Reflux & Sjögren’s</div>
-        <div class="collapsible-body container row" style="padding:0px">
+        <div class="collapsible-body container" style="padding:0px">
             <p style="padding-left:0px">
               - For nighttime reflux, avoid eating at least 3 hours before bed and limit liquids to small sips to keep the stomach empty.
               <br><br>
